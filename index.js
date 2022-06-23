@@ -29,18 +29,31 @@
 
 ///////////////////////////////////////////////////////////////////
 
-// 3- Puissance et racine carrée (PAS FINI)
+// 3- Puissance et racine carrée
 
 // const numbers =[1,2,3,4,5]
 // const squares= []
 // const roots= []
 
-// for (i=0; i<numbers.length; i++) {
+// console.log (`Nombres = ${numbers}`)
 
-//     squares.push(numbers[i])
+// for (i=0; i<=numbers.length -1; i++) {
+
+//     squares.push(numbers[i] ** 2)
 
 // }
-// console.log (squares)
+
+// console.log (`Puissance au carré = ${squares}`)
+
+// ////////////////////////////
+
+// for (i=0; i<=numbers.length -1; i++) {
+
+//     roots.push (Math.sqrt(squares[i]))
+
+// }
+
+// console.log (`Racines carrée de la puissance au carré = ${roots}`)
 
 // for (i=0; i<numbers.length; i++) {
 
@@ -74,16 +87,18 @@
 
 ///////////////////////////////////////////////////////////////////
 
-//  6- Factorielle v1 (PAS FINI)
+//  6- Factorielle v1
 
 
-// let factorielle = 1
+// let factorielle = 7
 
-// for (i = 1; i < 8; i++) {
-//     for (j = i; j < i; j++){
-//         factorielle * (i * i + 1)
-//     }
-//     factorielle * (i * i + 1)
-//     console.log(factorielle)
+// for (i = 1; i < 7; i++) {
+//     factorielle = factorielle * i
+
 // }
+
 // console.log(factorielle)
+
+///////////////////////////////////////////////////////////////////
+
+//  7- Factorielle v2
